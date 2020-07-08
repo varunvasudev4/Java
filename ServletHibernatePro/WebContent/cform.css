@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+.inp,.inp2{
+  	border: none;
+  	border-bottom: 1px solid black;
+  	background:none;
+  	display: inline-block;
+	width: 170px;
+	padding: 10px;
+	font-size: 15px;
+	font-family: 'Manrope', sans-serif;
+	}
+body{
+	background-image: url("./resourses/background.jpg");
+	font-size: 15px;
+	font-family: 'Manrope', sans-serif;
+	padding: 10px;
+	padding-left: 40px;
+	}
+input[type="submit"] {
+	position: relative;
+	left:107px;
+	}
+input[type="reset"] {
+	position: relative;
+	left:0px;
+	}	
+.resub{
+	padding: 10px;
+	background: none;
+	box-shadow:0 0 4px black;
+	border:none;
+	border-radius: 20px;
+	width: 79px;
+}
+.resub:hover{
+	background-color: #72A3CE;
+	cursor: pointer;
+}
+input[type="checkbox"]{
+	height: 19px;
+	width: 19px;
+	position: relative;
+	left: 33px;
+	top:5px;
+	background: none;
+	cursor: pointer;
+}
+#vps{
+	text-transform:capitalize;
+	width:100px;
+	text-align:left;
+	display: none;
+	margin-bottom: 10px;
+}
+.inp2{
+	width: 250px;
+}
+#vpls{
+	text-transform:capitalize;
+}
+td{
+	padding: 10px;
+}
+#out{
+	display:inline;
+}

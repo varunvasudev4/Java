@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+body{
+	background-image: url("./resourses/background.jpg");
+	font-size: 15px;
+	font-family: 'Manrope', sans-serif;
+	padding: 20px;
+	}	
+#nav>a{
+	text-decoration: none;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin-bottom: 10px;
+	display:inline-block;
+	width: 200px;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+	z-index: 5;
+	position: fixed;
+	top : 8px;
+	left: 5px;
+}
+#nav>a:active {
+	padding: 8px;
+	background-color: #72A3CE;
+	box-shadow: 5px 5px 8px black;
+}
+#nav>a:hover{
+	background-color: #72A3CE;
+	box-shadow: 5px 5px 10px black;
+}
+.main{
+	display: inline-block;
+	width: 200px;
+	height: 264px;
+	box-shadow: 0 0 20px black;
+	position:relative;
+	top:50px;
+	margin: 20px;
+	border-radius: 40px;
+	
+}
+div.main:hover {
+	top:40px;
+	background-image: url("./resourses/bckd.gif");
+	cursor: pointer;
+}
+.place{
+	padding: 20px;
+	text-align: center;
+	background: #72A3CE;
+	text-transform: capitalize;
+	border-radius: 40px 40px 0 0;
+	font-weight: bold;
+}
+.people{
+	padding: 10px;
+	text-transform: capitalize;
+}

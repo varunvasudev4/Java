@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Form</title>
+		<link rel="icon" href="./resourses/tomcat.png">
+		<style>
+		.inp{
+  			border: none;
+  			border-bottom: 1px solid black;
+  			background:none;
+			}
+		body{
+			background-image: url("./resourses/background.jpg");
+			}
+		</style>
+	</head>
+	<body>
+	<center>
+		<h3>Form In</h3>
+		<form>
+			<table cellspacing="20px" >
+				<tr>
+					<td>Username</td>
+					<td><input type="text" name="username" placeholder="Alex Josh" autofocus="autofocus" class="inp"/></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type="password" name="password" placeholder="Qsde43mn*e2" min="8" class="inp"/></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="email" placeholder="alexjosh@gmail.com" name="email" class="inp"/> </td>
+				</tr>
+				<tr>
+					<td>DOB</td>
+					<td><input type="date" name="dob" required="required" class="inp"/> </td>
+				</tr>
+				<tr>
+					<td>Mobile</td>
+					<td><input type="tel" placeholder="+91-9999999999"
+					 name="mobile" maxlength="15" min="14"
+					 pattern="[+]{1}[0-9]{1-3}-[6-9]{1}[0-9]{9}" class="inp"/> </td>
+				</tr>
+				<tr>
+					<td>Gender<br><br><br></td>
+					<td>
+						<input type="radio" name="gender">Male</input><br>
+						<input type="radio" name="gender">Female</input><br>
+						<input type="radio" name="gender">Others</input>
+					</td>
+				</tr>
+				<tr>
+					<td>Height</td>
+					<td>
+						<input type="number" step=".1" value="150" min="140" max="185" class="inp"/>
+					</td>
+				</tr>
+				<tr>
+					<td>Subject<br><br><br></td>
+					<td>
+						<input type="checkbox" name="subject">HTML</input><br>
+						<input type="checkbox" name="subject">CSS</input><br>
+						<input type="checkbox" name="subject">JavaScript</input>
+					</td>
+				</tr>
+				<tr>
+					<td>Address<br><br><br><br><br><br><br></td>
+					<td><textarea rows="8" cols="15"></textarea> </td>
+				</tr>
+				<tr>
+					<td>City</td>
+					<td>
+						<select name="city" >
+							<option>Select</option>
+							<option>Banglore</option>
+							<option>Chennai</option>
+							<option>Kochin</option>
+							<option>Hydrabad</option>
+							<option>Ahemmadabad</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Work Experience</td>
+					<td>0&nbsp<input type="range" name="start" max="10"/>&nbsp10
+				</tr>
+				
+				<tr>
+					<td>Job Preference<br><br><br></td>
+					<td>
+						<input list="jobs" class="inp"><br>
+						<input list="jobs" class="inp">
+  						<datalist id="jobs">
+   							<option value="Developer">
+    						<option value="Network Admin">
+    						<option value="Desktop Admin">
+    						<option value="Analyst">
+    						<option value="Tester">
+  						</datalist>
+					</td>
+				</tr>
+				<tr>
+					<td>Resume</td>
+					<td><input type="file" name="resume" multiple="multiple"/></td>
+				</tr>
+				<tr>
+					<td><input type="reset" value="ReSet" /> </td>
+					<td><input type="submit" value="SuBmit" formnovalidate="formnovalidate"/></td>
+				</tr>
+			</table>
+		</form>
+	</center>
+	
+	</body>
+</html>

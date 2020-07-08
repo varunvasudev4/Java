@@ -1,0 +1,77 @@
+@charset "ISO-8859-1";
+body{
+	background-image: url("./resourses/background.jpg");
+	font-size: 15px;
+	font-family: 'Manrope', sans-serif;
+	text-transform: capitalize;
+	}
+table {
+	position:relative;
+	top:50px;
+	width: 100%;
+	text-align: center;
+}
+th,td{
+	padding: 20px;
+	border-bottom: 2px solid black;
+}
+.call{
+	text-decoration: none;
+	color: black;
+}
+.callimg{
+	width: 15px;
+	height: 15px;
+}
+#header{
+	text-transform: uppercase;
+	
+}
+
+.addr{
+	display: none; 
+	position:fixed;
+	right:200px;
+	top:200px;
+	padding:20px; 
+	background-color: #a5bbd0; 
+	background-image: url("./resourses/background.jpg");
+	border-radius: 20px; 
+    box-shadow:0 0 10px black;
+    height: 300px;
+    width: 300px;
+    text-align: left;
+    text-transform: capitalize;
+    
+}
+.delete{
+	display: inline-block;
+	background-color: red;
+	padding:0px 8px;
+	border-radius:50%;
+	z-index: 5;
+	position: relative;
+	top:-40px;
+	right: -63px;
+	text-decoration: none;
+	color: white;
+	opacity: .1;
+	font-weight: bold;
+	font-size: 17px;
+}
+.delete:hover {
+	background-color: red;
+	box-shadow: 0 0 2px black;
+	opacity: 1.0;
+}
+.delete:active {
+	padding: 0 7px;
+}
+.edit{
+	text-decoration: none;
+	color: black;
+}
+.editimg{
+	width: 15px;
+	height: 15px;
+}
