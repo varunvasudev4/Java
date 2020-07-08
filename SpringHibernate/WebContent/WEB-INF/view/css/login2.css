@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+body{
+	background-image: url("../media/back2.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+div.main{
+	width: 25%;
+	margin: 90px auto;
+	border: none;
+	border-top: 2px solid white;
+	border-bottom:2px solid white;
+	border-radius: 10px;
+	background: transparent;
+	text-align: center;
+	font-family: Segoe UI;
+	padding: 10px 5px;
+	margin-top: 150px;
+}
+div h2{
+	color: white;
+}
+div.main div.logo{
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	margin:-75px auto 0;
+}
+div.main div.logo i.user{
+	background-color:#004588;
+	font-size: 120px;
+	color: white;
+	border-radius: 50%;
+}
+input[type="submit"]{
+	padding: 2px;
+	margin-bottom: 20px;
+	background: #115EA6;
+	border: none;
+	box-shadow: 0 0 5px black;
+	border-radius: 5px;
+	width: 95%;
+	color: white;
+}
+::placeholder{
+	color: gray;
+}
+.inp{
+	padding: 5px;
+	margin: 30px auto;
+	border: none;
+	background: transparent;
+	border-bottom: 2px solid white;
+	width: 95%;
+	outline: none;
+	padding: 0;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+	border: none;
+	font-size: 20px;
+	color: white;
+	width: 100%;
+	background: transparent;
+	outline: none;
+}
+input[type="password"]{
+	width: 90%;
+	margin-left: 0px;
+}
+div i.fas{
+	position: relative;
+    top: -105px;
+    left: 0px;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 35.4px;
+    background-color: rgba(0,0,0,.3);
+    opacity: 0;
+    color: white;
+    transition: .5s ease;
+}
+div i.fas:hover{
+	opacity: 1;
+}

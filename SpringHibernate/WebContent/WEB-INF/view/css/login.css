@@ -1,0 +1,74 @@
+@charset "ISO-8859-1";
+body{
+	background-image: url("../media/back.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+div{
+	width: 25%;
+	margin: 90px auto;
+	border: none;
+	box-shadow: 0 0 10px black;
+	border-radius: 10px;
+	background: linear-gradient(45deg,darkred,black);
+	opacity : .6;
+	text-align: center;
+	font-family: Segoe UI;
+	padding: 10px 5px;
+	
+}
+div h2{
+	color: white;
+}
+div i.far{
+	font-size: 110px;
+	margin-top: -69px;
+	border-radius: 50%;
+	border: 5px solid darkred;
+	background: linear-gradient(45deg,darkred,black);
+	color: white;
+	box-shadow: 0 0 10px black;
+}
+div i.far:hover{
+	opacity: 0.5;
+}
+div i.fas{
+	position: absolute;
+    top: 4.7%;
+    left: 46.1%;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 43.8px;
+    background-color: rgba(0,0,0,.5);
+    opacity: 0;
+    color:white;
+    transition: .5s ease;
+}
+div i.fas:hover{
+	opacity: 1;
+}
+input {
+	padding: 5px;
+	margin: 15px 3px;
+	border: none;
+	background: transparent;
+	border-bottom: 2px solid orange;
+	font-size: 20px;
+	width: 80%;
+	outline: none;
+	color: white;
+}
+input[type="submit"]{
+	padding: 2px;
+	margin-bottom: 20px;
+	background: darkred;
+	border: none;
+	box-shadow: 0 0 5px black;
+	border-radius: 5px;
+	width: 85%;
+	color: white;
+}
+::placeholder{
+	color: white;
+}
+
